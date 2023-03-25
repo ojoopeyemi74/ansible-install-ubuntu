@@ -42,3 +42,5 @@ Add to the bottom of the file
 [production]
 agent1 ansible_ssh_host=172.31.43.43
 
+ansible -m ping all
+
